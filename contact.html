@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | NCETCT-2K26</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header class="navbar scrolled">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="T. John Logo" class="header-logo">
+                <span class="logo-text"><span class="highlight-text">NCETCT-2K26</span></span>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="conference.html"><span class="highlight-text">NCETCT-2K26</span></a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <div class="container">
+                <h1>Contact & Venue</h1>
+            </div>
+        </div>
+
+        <!-- Organising Committee -->
+        <section class="committee section-padding bg-light">
+            <div class="container text-center">
+                <h2 class="section-title">Organising Committee</h2>
+
+                <div class="leadership-grid">
+                    <!-- Member 1 -->
+                    <div class="leader-card">
+                        <div class="leader-img">
+                            <img src="selvam.jpg" alt="Mr. M. Selvam" style="object-position: center 20%;">
+                        </div>
+                        <h4 class="leader-name">Mr. M. Selvam</h4>
+                        <p class="leader-dept">Associate Professor</p>
+                    </div>
+
+                    <!-- Member 2 -->
+                    <div class="leader-card">
+                        <div class="leader-img">
+                            <img src="sreelakshmy.jpg" alt="Mrs. S. Sreelakshmy" style="object-position: center 20%;">
+                        </div>
+                        <h4 class="leader-name">Mrs. S. Sreelakshmy</h4>
+                        <p class="leader-dept">Assistant Professor</p>
+                    </div>
+
+                    <!-- Member 3 -->
+                    <div class="leader-card">
+                        <div class="leader-img">
+                            <img src="keerthana.jpg" alt="Ms. Keerthana" style="object-position: center 20%;">
+                        </div>
+                        <h4 class="leader-name">Ms. Keerthana</h4>
+                        <p class="leader-dept">Assistant Professor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section-padding">
+            <div class="container">
+                <div class="section-grid">
+                    <div class="contact-info">
+                        <h2 class="section-title">Get in Touch</h2>
+                        <div class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <p><strong>Email:</strong><br>
+                                    <a href="mailto:tjitmcaconference2026@gmail.com"
+                                        class="text-muted">tjitmcaconference2026@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <p><strong>Faculty Coordinator:</strong> <a href="tel:9944312640">9944312640</a></p>
+                                <p><strong>Student Coordinator:</strong> <a href="tel:7483426813">7483426813</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <p><strong>Address:</strong><br>
+                                    T. John Institute of Technology<br>
+                                    86/1, Gottigere, Bannerghatta Road<br>
+                                    Bangalore, Karnataka – 560083</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-map">
+                        <div class="map-placeholder">
+                            <i data-lucide="navigation"></i>
+                            <h3>Mode: Hybrid</h3>
+                            <p>T. John Institute of Technology, Bengaluru</p>
+                            <a href="https://maps.google.com" target="_blank" class="btn btn-primary mt-5">View on
+                                Maps</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Organizing Committee Recap -->
+        <section class="section-padding bg-light">
+            <div class="container text-center">
+                <h2 class="section-title">Organized By</h2>
+                <div class="dept-card mx-auto max-w-800">
+                    <p class="lead-text">Department of Computer Applications</p>
+                    <p>T. John Institute of Technology</p>
+                    <p>Bengaluru, Karnataka</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="conference.html"><span class="highlight-text">NCETCT-2K26</span></a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p>&copy; 2026 Department of Computer Applications, T. John Institute of Technology. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const mobBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.querySelector('.nav-links');
+        mobBtn.addEventListener('click', () => { navLinks.classList.toggle('active'); });
+    </script>
+</body>
+
+</html>
