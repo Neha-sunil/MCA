@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NCETCT-2K26 | Conference Details</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="icon" type="image/png" href="conf-logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,6 +20,7 @@
         <div class="container">
             <div class="logo">
                 <img src="logo.png" alt="T. John Logo" class="header-logo">
+                <img src="conf-logo.png" alt="Conference Logo" class="conference-logo">
                 <span class="logo-text"><span class="highlight-text">NCETCT-2K26</span></span>
             </div>
             <nav class="nav-links">
@@ -36,7 +37,8 @@
     <main>
         <div class="page-header">
             <div class="container">
-                <h1>National Conference (<span class="highlight-text">NCETCT-2K26</span>)</h1>
+                <h1>National Conference on Emerging Trends in Computing Technology (<span
+                        class="highlight-text">NCETCT-2K26</span>)</h1>
             </div>
         </div>
 
@@ -176,7 +178,7 @@
                             <li>DevOps</li>
                             <li>Blockchain</li>
                             <li>Ethical Hacking</li>
-                            <li>Open Innovation & Emerging Technologies</li>
+                            <li>Open Innovation (open to all)</li>
                         </ul>
                     </div>
                 </div>
@@ -247,18 +249,36 @@
                         </table>
                         <p class="fee-note">Note: Maximum 3 authors per paper.</p>
 
-                        <!-- Scan to Register & Pay -->
-                        <div class="qr-payment-box"
-                            style="margin-top: 2rem; background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; border: 1px dashed rgba(255,255,255,0.3); text-align: center;">
-                            <h3 style="color: var(--white); margin-bottom: 1rem; font-size: 1.2rem;">Scan to Register &
-                                Pay</h3>
-                            <div
-                                style="width: 150px; height: 150px; background: white; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                                <img src="payment_qr.jpg" alt="Payment QR Code"
-                                    style="width: 100%; height: 100%; object-fit: contain;">
+                        <!-- Dual QR Boxes -->
+                        <div class="qr-container"
+                            style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+
+                            <!-- Box 1: Scan to Register -->
+                            <div class="qr-payment-box"
+                                style="flex: 1; min-width: 200px; background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; border: 1px dashed rgba(255,255,255,0.3); text-align: center;">
+                                <h3 style="color: var(--white); margin-bottom: 1rem; font-size: 1.1rem;">Scan to
+                                    Register</h3>
+                                <div
+                                    style="width: 140px; height: 140px; background: white; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
+                                    <img src="register_qr.png" alt="Registration QR Code"
+                                        style="width: 100%; height: 100%; object-fit: contain;">
+                                </div>
+                                <p style="font-size: 0.8rem; color: rgba(255,255,255,0.8);">Scan to complete
+                                    registration</p>
                             </div>
-                            <p style="font-size: 0.9rem; color: rgba(255,255,255,0.8);">Scan the QR code to complete
-                                your registration and payment.</p>
+
+                            <!-- Box 2: Scan to Pay -->
+                            <div class="qr-payment-box"
+                                style="flex: 1; min-width: 200px; background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; border: 1px dashed rgba(255,255,255,0.3); text-align: center;">
+                                <h3 style="color: var(--white); margin-bottom: 1rem; font-size: 1.1rem;">Scan to Pay
+                                </h3>
+                                <div
+                                    style="width: 140px; height: 140px; background: white; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
+                                    <img src="payment_qr.jpg" alt="Payment QR Code"
+                                        style="width: 100%; height: 100%; object-fit: contain;">
+                                </div>
+                                <p style="font-size: 0.8rem; color: rgba(255,255,255,0.8);">Scan to complete payment</p>
+                            </div>
                         </div>
                     </div>
                 </div>
